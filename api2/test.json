@@ -3,5 +3,20 @@
     "info": {
         "title": "API",
         "description": "Api test"
+    },
+    "paths": {
+        "/hello": {
+            "get": {
+                "summary": "Get Hello",
+                "description": "Get Hello hello"
+            },
+            "parameters": [
+                {
+                    "name": "name",
+                    "in": "query",
+                    "type": "string"
+                }
+            ]
+        }
     }
 }
